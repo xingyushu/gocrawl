@@ -13,6 +13,8 @@ http://localhost:8080/crawl_moive即可
 登录mysql及 redis查看 相应的数据    
 
 ![1](https://github.com/xingyushu/gocrawl/blob/master/img-folder/01.png)
+
+
 ”爬虫“要面对的其实是很多网页和标签的集合 
 
 （1）网页去重   
@@ -28,7 +30,9 @@ http://localhost:8080/crawl_moive即可
 
 爬豆瓣电影评分：
 https://movie.douban.com/subject/26266893/?from=showing
+
 ![2](https://github.com/xingyushu/gocrawl/blob/master/img-folder/02.png)
+
 
 对应元素正则匹配要写准确：
 例如获取导演名称：
@@ -48,10 +52,13 @@ Redis的使用
 https://www.cnblogs.com/zongfa/p/7808807.html
 
 最后登录redis可以查看：
+
 ![3](https://github.com/xingyushu/gocrawl/blob/master/img-folder/03.png)
 
 数据库查看：
+
 ![4](https://github.com/xingyushu/gocrawl/blob/master/img-folder/04.png)
+
 
 beego参考文档：
 https://beego.me/docs/intro/
