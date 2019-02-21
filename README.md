@@ -19,9 +19,11 @@ http://localhost:8080/crawl_moive即可
 
 （1）网页去重   
   哈希存储  布隆过滤器
+  
 （2）标签匹配：
    正则表达式
    beautiful soup或lxml这种标签提取库
+   
 （3）动态内容：
     phantomjs
     selenium
